@@ -1,0 +1,768 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='http://nvd3.org/assets/css/nv.d3.css'>
+    
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js' type='text/javascript'></script>
+    <script src='http://d3js.org/d3.v3.min.js' type='text/javascript'></script>
+    <script src='http://timelyportfolio.github.io/rCharts_nvd3_tests/libraries/widgets/nvd3/js/nv.d3.min-new.js' type='text/javascript'></script>
+    <script src='http://nvd3.org/assets/lib/fisheye.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 650px;
+      height: 800px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chart11d494ef35314' class = 'rChart nvd3'></div>    
+    <script type='text/javascript'>
+ $(document).ready(function(){
+      drawchart11d494ef35314()
+    });
+    function drawchart11d494ef35314(){  
+      var opts = {
+ "dom": "chart11d494ef35314",
+"width":    650,
+"height":    800,
+"x": "reaction",
+"y": "count",
+"group": "drug",
+"type": "multiBarHorizontalChart",
+"id": "chart11d494ef35314" 
+},
+        data = [
+ {
+ "reaction": "Angioedema",
+"outcome": "OT",
+"count":            246,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Gastrointestinal haemorrhage",
+"outcome": "HO",
+"count":            120,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Incorrect drug administration duration",
+"outcome": "OT",
+"count":            114,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Anaemia",
+"outcome": "HO",
+"count":             96,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Wrong technique in drug usage process",
+"outcome": "OT",
+"count":             78,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Urticaria",
+"outcome": "OT",
+"count":             75,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Off label use",
+"outcome": "OT",
+"count":             66,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Death",
+"outcome": "DE",
+"count":             54,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Cough",
+"outcome": "OT",
+"count":             51,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Pneumonia",
+"outcome": "OT",
+"count":             51,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Pyrexia",
+"outcome": "HO",
+"count":             48,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Rectal haemorrhage",
+"outcome": "HO",
+"count":             48,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Dizziness",
+"outcome": "OT",
+"count":             48,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Dyspnoea",
+"outcome": "OT",
+"count":             48,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Epistaxis",
+"outcome": "OT",
+"count":             48,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Pyrexia",
+"outcome": "OT",
+"count":             48,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Faeces discoloured",
+"outcome": "HO",
+"count":             45,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Melaena",
+"outcome": "HO",
+"count":             45,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Wrong technique in drug usage process",
+"outcome": "HO",
+"count":             45,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Large granular lymphocytosis",
+"outcome": "OT",
+"count":             45,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Rash",
+"outcome": "OT",
+"count":             45,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Gastric haemorrhage",
+"outcome": "HO",
+"count":             42,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Nausea",
+"outcome": "HO",
+"count":             42,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Fall",
+"outcome": "OT",
+"count":             42,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Abdominal pain",
+"outcome": "HO",
+"count":             39,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Diarrhoea",
+"outcome": "HO",
+"count":             39,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Vomiting",
+"outcome": "HO",
+"count":             39,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Drug ineffective",
+"outcome": "OT",
+"count":             39,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Pain",
+"outcome": "OT",
+"count":             39,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Haemoglobin decreased",
+"outcome": "HO",
+"count":             36,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Asthma",
+"outcome": "OT",
+"count":             36,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Colitis microscopic",
+"outcome": "OT",
+"count":             36,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Diarrhoea",
+"outcome": "OT",
+"count":             36,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Gastrointestinal haemorrhage",
+"outcome": "OT",
+"count":             36,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Chest pain",
+"outcome": "HO",
+"count":             33,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Renal failure acute",
+"outcome": "HO",
+"count":             33,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Sepsis",
+"outcome": "HO",
+"count":             33,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Anaemia",
+"outcome": "OT",
+"count":             33,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Hypersensitivity",
+"outcome": "OT",
+"count":             33,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Myocardial infarction",
+"outcome": "OT",
+"count":             33,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Nausea",
+"outcome": "OT",
+"count":             33,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Overdose",
+"outcome": "OT",
+"count":             33,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Pleural effusion",
+"outcome": "OT",
+"count":             33,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Throat irritation",
+"outcome": "OT",
+"count":             33,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Asthenia",
+"outcome": "HO",
+"count":             30,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Haemorrhagic anaemia",
+"outcome": "HO",
+"count":             30,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Abdominal discomfort",
+"outcome": "OT",
+"count":             30,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Abdominal pain upper",
+"outcome": "OT",
+"count":             30,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Anaphylactic reaction",
+"outcome": "OT",
+"count":             30,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Bronchospasm",
+"outcome": "OT",
+"count":             30,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Chest pain",
+"outcome": "OT",
+"count":             30,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Choking",
+"outcome": "OT",
+"count":             30,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Drug hypersensitivity",
+"outcome": "OT",
+"count":             30,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Gastric haemorrhage",
+"outcome": "OT",
+"count":             30,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Malaise",
+"outcome": "OT",
+"count":             30,
+"drug": "Aspirin" 
+},
+{
+ "reaction": "Dizziness",
+"outcome": "HO",
+"count":           -231,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Movement disorder",
+"outcome": "DS",
+"count":           -233,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Asthenia",
+"outcome": "HO",
+"count":           -233,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Pneumonia",
+"outcome": "HO",
+"count":           -235,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Cerebrovascular accident",
+"outcome": "OT",
+"count":           -237,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Depression",
+"outcome": "OT",
+"count":           -238,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Drug dose omission",
+"outcome": "OT",
+"count":           -241,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Fall",
+"outcome": "OT",
+"count":           -241,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Hypertension",
+"outcome": "OT",
+"count":           -241,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Diarrhoea",
+"outcome": "HO",
+"count":           -242,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Pneumonia",
+"outcome": "OT",
+"count":           -246,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Diarrhoea",
+"outcome": "OT",
+"count":           -253,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Off label use",
+"outcome": "OT",
+"count":           -254,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Movement disorder",
+"outcome": "OT",
+"count":           -267,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Renal failure acute",
+"outcome": "HO",
+"count":           -268,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Tremor",
+"outcome": "OT",
+"count":           -268,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Asthenia",
+"outcome": "OT",
+"count":           -269,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Anxiety",
+"outcome": "OT",
+"count":           -284,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Intentional drug misuse",
+"outcome": "OT",
+"count":           -294,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Fatigue",
+"outcome": "OT",
+"count":           -296,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Pyrexia",
+"outcome": "OT",
+"count":           -298,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Drug interaction",
+"outcome": "OT",
+"count":           -304,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Extrapyramidal disorder",
+"outcome": "HO",
+"count":           -311,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Malaise",
+"outcome": "HO",
+"count":           -312,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Pyrexia",
+"outcome": "HO",
+"count":           -318,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Dystonia",
+"outcome": "OT",
+"count":           -318,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Nervous system disorder",
+"outcome": "HO",
+"count":           -320,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Gastrooesophageal reflux disease",
+"outcome": "OT",
+"count":           -330,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Nausea",
+"outcome": "HO",
+"count":           -332,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Tardive dyskinesia",
+"outcome": "HO",
+"count":           -339,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Vomiting",
+"outcome": "HO",
+"count":           -339,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Dizziness",
+"outcome": "OT",
+"count":           -346,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Headache",
+"outcome": "HO",
+"count":           -348,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Dyspnoea",
+"outcome": "HO",
+"count":           -350,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Vomiting",
+"outcome": "OT",
+"count":           -397,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Cerebrovascular accident",
+"outcome": "HO",
+"count":           -400,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Pain",
+"outcome": "OT",
+"count":           -402,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Dyspnoea",
+"outcome": "OT",
+"count":           -413,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Bladder cancer",
+"outcome": "DE",
+"count":           -432,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Malaise",
+"outcome": "OT",
+"count":           -460,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Bladder cancer",
+"outcome": "RI",
+"count":           -462,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Bladder cancer",
+"outcome": "OT",
+"count":           -463,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Nausea",
+"outcome": "OT",
+"count":           -493,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Headache",
+"outcome": "OT",
+"count":           -504,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Drug ineffective",
+"outcome": "OT",
+"count":           -516,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Cardiac failure congestive",
+"outcome": "HO",
+"count":           -534,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Extrapyramidal disorder",
+"outcome": "DS",
+"count":           -625,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Nervous system disorder",
+"outcome": "DS",
+"count":           -627,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Nervous system disorder",
+"outcome": "OT",
+"count":           -652,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Myocardial infarction",
+"outcome": "HO",
+"count":           -713,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Tardive dyskinesia",
+"outcome": "DS",
+"count":           -747,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Death",
+"outcome": "DE",
+"count":           -755,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Extrapyramidal disorder",
+"outcome": "OT",
+"count":           -779,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Cardiac disorder",
+"outcome": "OT",
+"count":           -962,
+"drug": "Alimentary tract and metabolism" 
+},
+{
+ "reaction": "Tardive dyskinesia",
+"outcome": "OT",
+"count":          -1161,
+"drug": "Alimentary tract and metabolism" 
+} 
+]
+  
+      if(!(opts.type==="pieChart" || opts.type==="sparklinePlus" || opts.type==="bulletChart")) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? 'main' : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+      
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+      
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+          
+        if (opts.type != "bulletChart"){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+          
+         
+        chart
+  .stacked(true)
+  .tooltipContent( function(key, x, y){
+         var format = d3.format('0,000');
+         return '<h3>' + key + ', Adverse reaction : ' + x + '</h3>' + 
+         '<p>' + 'Counts : ' + y + '</p>'
+         } )
+  .color([ "blue", "red" ])
+  .margin({
+ "left":    200 
+})
+          
+        
+
+        
+        
+        chart.yAxis
+  .axisLabel("Count")
+  .tickFormat( function(d) {
+                          return d3.format(',.1f')(Math.abs(d) / 1)
+                          } )
+      
+       d3.select("#" + opts.id)
+        .append('svg')
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+</script>
+    
+    <script></script>    
+  </body>
+</html>
